@@ -1,0 +1,75 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+header {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+   
+    background-color: rgb(101, 1, 231);
+    font-size: 20pt;
+}
+/* .content1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap:wrap;
+}
+.content2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+} */
+.btn-form {
+    background: rgb(101, 1, 231);
+}
+.btn-form:hover {
+    background: rgb(255, 196, 0);
+}
+.btn-enter {
+    max-width: 100px;
+    width: 100%;
+}
+.h1-auth {
+    text-align: center;
+}
+.submitdiv {
+    text-align: center;
+}
+.confidential {
+    padding-top: 10px;
+}
+.confidential a{
+    text-decoration: none;
+}
+/* .link{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+} */
+/* .link:hover {
+    color: rgb(255, 196, 0);
+} */
+.enter-logout {
+    margin-right: 40px;
+}
+.deleteform {
+    margin-top: 0;
+}
